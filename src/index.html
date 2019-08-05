@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BZW Online</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>BZW Online</h1>
+  <p>
+    World Size: <input type="number" value="400" onchange="worldSizeChange(this.value)" onkeyup="worldSizeChange(this.value)"><br>
+    <button onclick="generate()">Generate!</button>
+  </p>
+  <textarea id="output" cols="60" rows="32" readonly="true"></textarea>
+  <script src="app.js"></script>
+</body>
+</html>
